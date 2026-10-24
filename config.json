@@ -1,0 +1,23 @@
+{
+  "mass_kg": 1500.0,
+  "yaw_inertia_kgm2": 2500.0,
+  "front_distance_m": 1.2,
+  "rear_distance_m": 1.6,
+  "front_axle_stiffness_Nprad": 80000.0,
+  "rear_axle_stiffness_Nprad": 80000.0,
+  "gravity_mps2": 9.81,
+  "sample_time_s": 0.01,
+  "speeds_mps": [10.0, 20.0, 30.0],
+  "steering_amplitude_deg": 0.3,
+  "steering_limit_deg": 5.0,
+  "steering_rate_limit_degps": 30.0,
+  "path_shift_m": 3.5,
+  "path_start_m": 30.0,
+  "path_length_m": 100.0,
+  "path_end_m": 240.0,
+  "lqr_state_scales": [0.5, 0.2, 0.05, 0.3],
+  "lqr_input_scale_rad": 0.05,
+  "screen_slip_deg": 3.0,
+  "screen_heading_deg": 10.0,
+  "screen_lateral_accel_g": 0.3
+}

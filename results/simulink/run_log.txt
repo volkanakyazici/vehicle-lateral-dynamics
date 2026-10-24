@@ -1,0 +1,24 @@
+
+Stage 1: Dynamic bicycle model
+PASS: 21 base-MATLAB mathematical checks.
+
+Stage 2: Steering input response at 20 m/s
+PASS step_20: state difference 0; steering difference 0 rad
+PASS sine_20: state difference 0; steering difference 0 rad
+
+Stage 3: Same steering input at 10 and 30 m/s
+PASS step_10: state difference 0; steering difference 0 rad
+PASS step_30: state difference 0; steering difference 0 rad
+
+Stage 4: Lane-shift tracking, offset recovery and steering constraints
+PASS uncontrolled_10: state difference 0; steering difference 0 rad
+PASS track_10: state difference 1.08e-19; steering difference 4.34e-19 rad
+PASS uncontrolled_20: state difference 0; steering difference 0 rad
+PASS track_20: state difference 4.44e-16; steering difference 7.01e-17 rad
+PASS uncontrolled_30: state difference 0; steering difference 0 rad
+PASS track_30: state difference 2.78e-16; steering difference 1.73e-17 rad
+PASS offset_20: state difference 5.55e-17; steering difference 1.04e-17 rad
+PASS limited_20: state difference 8.67e-19; steering difference 4.34e-19 rad
+
+PASS: all four stages and 12 Simulink cases completed.
+CSV output: /Users/volkanakyazici/Downloads/vehicle-lateral-dynamics 4/results/simulink
